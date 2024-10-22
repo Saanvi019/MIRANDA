@@ -1,0 +1,128 @@
+#elements{
+    
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+    padding: 30px 50px;
+
+}
+#element1{
+    width: 30%;
+    height: 100%;
+    
+    
+}
+#element2{
+    width: 30%;
+    height: 100%;
+    border-right: 1px solid #a5a5a5;
+    padding: 20px 60px;
+    text-align: center;
+    border-left: 1px solid #a5a5a5;
+}
+#element3{
+    width: 30%;
+    height: 100%;
+   
+}
+#element1>#img-box{
+    height: 60%;
+    width: 100%;
+    overflow:hidden ;
+}
+#img-box>img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition:all ease 0.5s ;
+}
+#element3>#img-box{
+    height: 60%;
+    width: 100%;
+    overflow:hidden ;
+}
+#img-box:hover>img{
+    scale: 1.1;
+}
+#element1 > h4 {
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: 'canopee', sans-serif;
+}
+#element1>h4>span{
+    background-color: #B43B12;
+    color: #C4BCB3;
+    font-weight: 100;
+    font-size: 18px;
+    padding: 4px;
+    border-radius: 5px ;
+    margin-left: 10px;
+
+}
+
+#element3 > h4 {
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: 'canopee', sans-serif;
+}
+#element3>h4>span{
+    background-color: #B43B12;
+    color: #C4BCB3;
+    font-weight: 100;
+    font-size: 18px;
+    padding: 4px;
+    border-radius: 5px ;
+    margin-left: 10px;
+
+}
+
+#element2 >h2{
+    font-family:'canopee';
+    font-size: 60px;
+    font-weight: 100;
+
+
+}
+#element2 >h3{
+    font-family:'domaine';
+    font-size: 30px;
+    font-weight: 100;
+    color: #2f2f2f;
+    margin: 20px 0px;
+    
+
+}
+#element2 >h6{
+    font-family:'domaine';
+    font-size: 20px;
+    font-weight: 100;
+    color: #2f2f2f;
+    
+}
+
+
+<div id="elements">
+<div id="element1">
+    <div id="img-box">
+        <img src="https://cdn.prod.website-files.com/5f9085a4041dd5427c5ac8ae/647dc0777b1a5df29f8e5a58_thumbnail-small.webp?" alt="">
+    </div>    
+    <h4>WOW CONCEPT<span>NEW</span></h4>
+    
+    
+</div>
+<div id="element2">
+    <h2>All Work!</h2>
+    <h3>A Featured selection <br>the latest work- <br>of the last years.</h3>
+    <h6>Tip! Click on the sides to explore</h6>
+</div>
+<div id="element3">
+    <div id="img-box">
+    <img src="https://cdn.prod.website-files.com/5f9085a4041dd5427c5ac8ae/615d9672cc65f12c9ab25f21_thumbnail-small.jpeg?" alt="">
+    </div>    
+    <h4>AVRO | KO<span>NEW</span></h4>
+    
+</div>
+</div>
